@@ -5,5 +5,5 @@ Go check it out, if you like it subscribe to my channel and 👍
 
 ## Lessons
 
-1. [async + await + Promise + es6 (converting Promises to async) ](https://github.com/the-creature/learn-es6/tree/master/async)
-2. [async with promise chain (ES6)](https://github.com/the-creature/learn-es6/tree/master/async-promise-chain)
+1. [async + await + Promise + es6 (converting Promises to async) ](https://youtu.be/H8oBRfK5u5c)
+2. [async with promise chain (ES6)](https://youtu.be/azojV796DRQ)
