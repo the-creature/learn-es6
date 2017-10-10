@@ -1,0 +1,10 @@
+dist
+analysis
+node_modules
+npm-debug.log
+.gitbugzrc
+.DS_Store
+.env
+.env-staging
+.env-production
+package-lock.json

@@ -1,0 +1,58 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "unicorn",
+    "prettier"
+  ],
+  "extends": [
+    "plugin:unicorn/recommended",
+    "xo-space/esnext",
+    "xo-react/space",
+    "prettier",
+    "prettier/react",
+    "plugin:import/warnings",
+    "plugin:import/errors"
+  ],
+  "rules": {
+    "no-alert": 0,
+    "import/order": ["error", {
+      "groups": [
+        "builtin", "external", "internal", "parent", "sibling", "index"
+      ],
+      "newlines-between": "never"
+    }],
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "trailingComma": "es5"
+    }],
+    "unicorn/no-fn-reference-in-iterator": 0,
+    "capitalized-comments": 0,
+    "no-compare-neg-zero": 0,
+    "prefer-promise-reject-errors": 0,
+    "no-multi-assign": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["./src"]
+      },
+      "webpack": {}
+    }
+  }
+}
